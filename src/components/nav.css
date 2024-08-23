@@ -2,11 +2,14 @@
     margin: 0PX;
     padding: 0PX;
     box-sizing: border-box;
+    /* color: white; */
 
 }
+
 .nav{
-    background-color: rgb(209, 205, 205);
-    /* background-color: rgb(254, 164, 164); */
+    /* background-color: rgb(209, 205, 205); */
+    background-color: rgb(25, 0, 59);
+    color: white;
     border-bottom: 2px solid rgb(7, 7, 7);
     height: 60PX;
     width: 100%;
@@ -15,6 +18,7 @@
 .menu{
     height: 100%;
     width: 25%;
+    color: white;
     /* background-color: yellow; */
     display: flex;
     font-size: small;
@@ -44,6 +48,7 @@
     text-align: center;
     align-content: center;
     padding: 5px;
+    color: white;
 }
 
 .link2{
@@ -61,6 +66,8 @@
     text-align: center;
     align-content: center;
     padding: 5px;
+    list-style: none;
+    color: white;
 }
 
 .link4{
@@ -72,9 +79,12 @@
 }
 .one{
     border-bottom: 2px solid blue;
-    color: blue;
+    /* color: blue; */
 }
 
+.one:hover{
+    color: blue;
+}
 .top{
     /* background-color: rgb(231, 144, 144); */
     border-bottom: 1px solid rgb(204, 201, 201);
@@ -95,7 +105,10 @@
     border-style: none;
     appearance: none;       
     cursor: pointer; 
+    color: white;
 }
 .drope:hover{
     color: blue;
+    background-color: white;
 }
+
