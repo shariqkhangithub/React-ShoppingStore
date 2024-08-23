@@ -1,4 +1,6 @@
 import react from "react";
+import home from "./../assets/home.png"
+import shop from "./../assets/shop.png"
 import './nav.css'
 
 function Navigation() {
@@ -6,16 +8,22 @@ function Navigation() {
         <>
             <div className="nav">
                 <div className="menu">
-                    <div className="link1 one"><p>Home</p></div>
-                    <div className="link2">
-                        <select className="drope">
+                    <div className="link one1">
+                    <select className="drope">
+                            <option value="home">Home</option>
+                            <option value="shirt">All items </option>
+                       
+                        </select>
+                    </div>
+                    <div className="link">
+                        <select  className="drope">
                             <option value="menu">Men</option>
                             <option value="shirt">menu's shirt</option>
                             <option value="shoes">Menu's shoes</option>
                             <option value="watch">Menu's watches</option>
                         </select>
                     </div>
-                    <div className="link3">
+                    <div className="link">
                     <select className="drope" >
                             <option value="menu">Women </option>
                             <option value="menu">Women shoes</option>
@@ -26,7 +34,7 @@ function Navigation() {
                             <option value="watch">Women jewelry</option>
                         </select>
                     </div>
-                    <div className="link4">
+                    <div className="link">
                     <select className="drope" >
                             <option value="menu">fragrance</option>
                             <option value="menu">fragrance for boys</option>
@@ -35,7 +43,7 @@ function Navigation() {
                     </div>
                 </div>
                 <div className="head"><h1>Thrift Store</h1></div>
-                <div className="pic"><p>shop</p></div>
+                <div className="pic"><img src={shop} alt="" /></div>
             </div>
             <div className="top">
                 <p>View Item Sorted By:</p>

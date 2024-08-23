@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navigation from './components/nav'
 import Product from './components/product'
-// import Footer from './components/footer'
+import Footer from './components/footer'
 import './App.css'
 
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <Navigation/>
       <Product/>
-      {/* <Footer/> */}
+      <Footer/>
         
     </>
   )

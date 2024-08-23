@@ -1,7 +1,7 @@
 .main{
     /* background-color: aqua; */
     width: 100wh;
-    height: 100vh;
+    height: fit-content;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
