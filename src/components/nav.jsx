@@ -1,11 +1,12 @@
 import react from "react";
 import home from "./../assets/home.png"
 import shop from "./../assets/shop.png"
+import bg from "./../assets/bg.png"
 import './nav.css'
 
 function Navigation() {
     return (
-        <>
+        <>  <div className="nav-main">
             <div className="nav">
                 <div className="menu">
                     <div className="link one1">
@@ -45,6 +46,13 @@ function Navigation() {
                 <div className="head"><h1>Thrift Store</h1></div>
                 <div className="pic"><img src={shop} alt="" /></div>
             </div>
+            <div className="wellcome">
+                <div className="well1">
+                    <h1><i>ONLINE </i><br /> SHOPPING</h1>
+                    <p>Welcome to Your Website Name! We are thrilled to have you here. Our mission is to provide you with the best online shopping experience, offering a wide range of high-quality products at unbeatable prices. We believe in making shopping easy, enjoyable, and accessible for everyone. Our dedicated team is here to serve you, ensuring that your needs are met with exceptional service and care. Thank you for choosing us as your preferred shopping destination. Happy shopping!</p>
+                </div>
+                <div className="well2"><img src={bg} alt="" /></div>
+            </div>
             <div className="top">
                 <p>View Item Sorted By:</p>
                 <select className="select">
@@ -54,7 +62,7 @@ function Navigation() {
                     <option value="audi">Audi</option>
                 </select>
             </div>
-
+            </div>
         </>
     )
 }
